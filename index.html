@@ -16,18 +16,21 @@
     <div class="bill">
       <form id="bill-form">
         <div class="inputs">
-          <label id="total-bill-cost" for="total">Total:</label>
-          <input min="0" type="number" name="total" id="total" placeholder="Total amount..."
-          required>
-          <br>
-          <label id="number-of-people" for="people">Number of people:</label>
-          <input min="0" type="number" name="people" id="people" placeholder="Number of people..."
-          required>
-          <br>
-          <label id="tip-amount" for="tips">Tip Percentage: </label>
-          <input min="12" type="number" name="tips" id="tips" placeholder="Tips percentage..."
-          required>
-          <br>
+          <div class="indiv-inputs">
+            <label id="total-bill-cost" for="total">Total:</label>
+            <input min="0" type="number" name="total" id="total" placeholder="Total amount..."
+            required>
+          </div>
+          <div class="indiv-inputs">
+            <label id="number-of-people" for="people">Number of people:</label>
+            <input min="0" type="number" name="people" id="people" placeholder="Number of people..."
+            required>
+          </div>
+          <div class="indiv-inputs">
+            <label id="tip-amount" for="tips">Tip Percentage: </label>
+            <input min="12" type="number" name="tips" id="tips" placeholder="Tips percentage..."
+            required>
+          </div>
         </div>
         <p>*Tips percentage is generally 15% avg in the states*</p>
         <button id="submit" type="submit">Calculate</button>
