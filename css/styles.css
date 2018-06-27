@@ -26,6 +26,9 @@ header {
     color: white;
     font-size: 1rem; }
 
+.indiv-inputs {
+  padding-top: 10px; }
+
 .bill {
   margin: 0 auto;
   border: 1px solid red;
@@ -34,7 +37,7 @@ header {
   color: white;
   border-bottom: 0.3rem solid #cc0000; }
   .bill input {
-    width: 40%;
+    width: 45%;
     float: right; }
 
 .outputs {
@@ -96,3 +99,4 @@ span {
     width: 40%; }
   .bill {
     width: 40%; } }
+
