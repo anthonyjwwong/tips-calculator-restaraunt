@@ -1,0 +1,98 @@
+html {
+  font-size: 16px; }
+
+body {
+  font-family: "Tajawal", sans-serif;
+  background: #43464B; }
+
+header {
+  border: 1px solid red;
+  background: red;
+  margin-bottom: 1rem;
+  border-bottom: 0.3rem solid #cc0000; }
+  header h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 2rem;
+    border: 1px solid red;
+    background: red;
+    color: white;
+    margin: 0 auto; }
+  header h2 {
+    text-align: center;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    font-size: 1rem; }
+
+.bill {
+  margin: 0 auto;
+  border: 1px solid red;
+  width: 95vw;
+  background: red;
+  color: white;
+  border-bottom: 0.3rem solid #cc0000; }
+  .bill input {
+    width: 45%;
+    float: right; }
+
+.outputs {
+  width: 90%;
+  margin: 0 auto; }
+
+#bill-form {
+  padding-top: 5px;
+  width: 90%;
+  margin: 0 auto; }
+  #bill-form button {
+    display: block;
+    margin: 1rem auto 0;
+    outline: none;
+    background: inherit;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px; }
+
+span {
+  float: right;
+  margin-right: 10px; }
+
+@media (min-width: 340px) {
+  .bill p {
+    margin-top: 2rem; }
+  .inputs {
+    margin-top: 2rem; } }
+
+@media (min-width: 600px) {
+  html {
+    font-size: 20px; } }
+
+@media (min-width: 800px) {
+  html {
+    font-size: 24px; }
+  header {
+    width: 80%;
+    margin: 0 auto 4rem; }
+  .bill {
+    width: 80%;
+    padding-top: 4rem;
+    padding-bottom: 4rem; }
+  .outputs {
+    width: 80%; }
+  #bill-form {
+    width: 80%; } }
+
+@media (min-width: 1200px) {
+  header {
+    margin-bottom: 10px; }
+  input {
+    padding: 5px 10px; }
+  .inputs {
+    margin-top: 0; } }
+
+@media (min-width: 1440px) {
+  header {
+    width: 40%; }
+  .bill {
+    width: 40%; } }

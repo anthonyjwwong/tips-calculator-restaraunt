@@ -1,0 +1,146 @@
+$title-font: "Montserrat", sans-serif;
+$paragraph-font: "Tajawal", sans-serif;
+$l-size: 4rem;
+$m-size: 2rem;
+$s-size: 1rem;
+$steelgray: #43464B;
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: $paragraph-font;
+  background: $steelgray;
+}
+
+header {
+  border: 1px solid red;
+  background: red;
+  margin-bottom: $s-size;
+  border-bottom: .3rem solid darken(red, 10%);
+  h1 {
+    font-family: $title-font;
+    font-weight: 300;
+    text-align: center;
+    font-size: $m-size;
+    border: 1px solid red;
+    background: red;
+    color: white;
+    margin: 0 auto;
+
+  }
+  h2 {
+    text-align: center;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    font-size: $s-size;
+  }
+}
+
+
+.bill {
+  margin: 0 auto;
+  border: 1px solid red;
+  width: 95vw;
+  background: red;
+  color: white;
+  border-bottom: .3rem solid darken(red, 10%);
+  input {
+  width: 45%;
+  float: right;
+
+  }
+
+}
+
+
+.outputs {
+  width: 90%;
+  margin: 0 auto;
+}
+#bill-form {
+  padding-top: 5px;
+  width: 90%;
+  margin: 0 auto;
+  button {
+    display: block;
+    margin: $s-size auto 0;
+    outline: none;
+    background: inherit;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+  }
+
+}
+
+
+span {
+  float: right;
+  margin-right: 10px;
+}
+
+
+@media (min-width: 340px) {
+  .bill p {
+    margin-top: $m-size;
+  }
+  .inputs {
+    margin-top: $m-size;
+  }
+
+}
+
+@media (min-width: 600px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 800px) {
+  html {
+    font-size: 24px;
+  }
+  header {
+    width: 80%;
+    margin: 0 auto $l-size ;
+  }
+  .bill {
+    width: 80%;
+    padding-top: $l-size;
+    padding-bottom: $l-size;
+  }
+  .outputs {
+    width: 80%;
+  }
+  #bill-form {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  header{
+
+    margin-bottom: 10px;
+  }
+
+  input {
+    padding: 5px 10px;
+  }
+  .inputs {
+    margin-top: 0;
+  }
+}
+
+@media (min-width:1440px) {
+  header {
+    width: 40%;
+  }
+  .bill {
+    width: 40%;
+    
+  }
+
+}

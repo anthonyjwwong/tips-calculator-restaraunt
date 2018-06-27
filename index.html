@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Split your tips</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Tajawal:300,400" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Restaurant Bill</h1>
+    <h2>Easy way to split your bill</h2>
+  </header>
+  <div class="main">
+    <div class="bill">
+      <form id="bill-form">
+        <div class="inputs">
+          <label id="total-bill-cost" for="total">Total:</label>
+          <input min="0" type="number" name="total" id="total" placeholder="Total amount..."
+          required>
+          <br>
+          <label id="number-of-people" for="people">Number of people:</label>
+          <input min="0" type="number" name="people" id="people" placeholder="Number of people..."
+          required>
+          <br>
+          <label id="tip-amount" for="tips">Tip Percentage: </label>
+          <input min="12" type="number" name="tips" id="tips" placeholder="Tips percentage..."
+          required>
+          <br>
+        </div>
+        <p>*Tips percentage is generally 15% avg in the states*</p>
+        <button id="submit" type="submit">Calculate</button>
+      </form>
+      <div class="outputs">
+        <p>Split Bill(w/o tips) per pax: <span class="split-output">0</span></p>
+        <p>Tips Amount per pax: <span class="tips-output">0</span></p>
+        <p>Total(w/ tips per pax): <span class="total-with-tips">0</span></p>
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
