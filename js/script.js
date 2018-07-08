@@ -1,4 +1,3 @@
-console.log("this is tip calculator brah")
 const submit = document.getElementById('submit');
 
 
